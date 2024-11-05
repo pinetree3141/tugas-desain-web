@@ -1,0 +1,18 @@
+.navbar {
+    background-color: #a0f3b1;
+    overflow: hidden;
+}
+.links {
+    padding: 10px;
+    max-width: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+.links a {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-style: normals;
+}

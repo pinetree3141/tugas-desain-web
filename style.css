@@ -1,6 +1,8 @@
 .navbar {
-    background-color: #a0f3b1;
+    background-color: #40d15d;
     overflow: hidden;
+    display: flex;
+    justify-content: left;
 }
 .links {
     padding: 10px;
@@ -15,4 +17,5 @@
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 18px;
     font-style: normals;
+    color: white;
 }

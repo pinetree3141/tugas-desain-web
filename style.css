@@ -1,5 +1,10 @@
+:root {
+    --color1: #053655;
+    --color2: #426275;
+}
+
 .navbar {
-    background-color: #053755;
+    background-color: var(--color1);
     width: 100%;
     position: fixed;
     top: 0;
@@ -17,10 +22,11 @@
     color: white;
 }
 
-.navbar a:hover {
-    background:#426275;
+@keyframes hoverfade {
+    from {background-color: var(--color1);}
+    to {background-color: var(--color2);}
 }
 
-.switch {
-    
+.navbar a:hover {
+    animation: hoverfade 250ms ease-out forwards;
 }

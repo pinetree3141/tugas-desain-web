@@ -4,14 +4,14 @@
 }
 
 .main {
+    /* overflow: hidden; */
     margin-top: 56px;
-    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .tentang {
-    display: block;
-    width: 100%;
-    left: 0;
+    padding: 10px;
+    text-align: justify;
     background-color: var(--color1);
     color: white;
 }

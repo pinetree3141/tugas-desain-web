@@ -1,0 +1,17 @@
+:root {
+    --color1: #053655;
+    --color2: #426275;
+}
+
+.main {
+    margin-top: 56px;
+    width: 100%;
+}
+
+.tentang {
+    display: block;
+    width: 100%;
+    left: 0;
+    background-color: var(--color1);
+    color: white;
+}

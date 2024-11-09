@@ -3,6 +3,10 @@
     --color2: #426275;
 }
 
+p {
+    text-align: justify;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -15,8 +19,7 @@ body {
 }
 
 .tentang {
-    padding: 10px;
-    text-align: justify;
+    padding: 20px;
     background-color: var(--color1);
     color: white;
 }

@@ -3,6 +3,11 @@
     --color2: #426275;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .main {
     /* overflow: hidden; */
     margin-top: 56px;

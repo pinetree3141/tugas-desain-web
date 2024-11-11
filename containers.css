@@ -1,16 +1,26 @@
 .gallery-container {
-    height: 500px;
-    overflow: scroll;
-    position: relative;
-    margin: auto;
+    height: 200px;
+    width: 100%;
+    display: inline-block;
+    justify-self: center;
 }
 
 .image-container {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
     height: 100%;
+    width: fit-content;
     border-radius: 15px;
-    box-shadow: 2px 2px 3px 5px black;
+    border: 4px dotted gray;
+    overflow: hidden;
 }
 
 .image-container img {
     height: 100%;
+    justify-self: center;
+}
+
+.gallery-caption {
+    text-wrap: wrap;
 }

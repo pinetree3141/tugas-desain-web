@@ -6,11 +6,25 @@
     top: 0;
     left: 0;
     overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-container {
+    
+}
+
+.navbar h2 {
+    font-size: 20;
+    padding: 0px 12px;
+    color: white;
+    font-family: monospace;
 }
 
 .navbar a {
     display: block;
     float: left;
+    height: 100%;
     padding: 16px 20px;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;

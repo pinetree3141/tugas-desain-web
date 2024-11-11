@@ -1,8 +1,8 @@
 :root {
     --color1: #053655;
     --color2: #ffffff;
+    --color3: #a6c1cc;
 }
-
 
 p {
     text-align: justify;
@@ -25,6 +25,8 @@ body {
     font-size: 36px;
     word-spacing: 0px;
 }
+
+
 
 .tentang {
     background-color: var(--color1);

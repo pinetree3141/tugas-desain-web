@@ -8,7 +8,7 @@ let prevPos = window.scrollY
 window.onscroll = () => {
     let currPos = window.scrollY
     let navbar = document.getElementById("navbar")
-    if (currPos > prevPos) {
+    if (currPos < prevPos) {
         navbar.style.top = "-56px"
     } else {
         navbar.style.top = "0px"

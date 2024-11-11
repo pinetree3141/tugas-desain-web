@@ -3,6 +3,7 @@
     --color2: #426275;
 }
 
+
 p {
     text-align: justify;
 }
@@ -15,7 +16,7 @@ body {
 .main {
     /* overflow: hidden; */
     margin-top: 56px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
 }
 
 .tentang {

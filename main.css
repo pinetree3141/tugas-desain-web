@@ -1,6 +1,6 @@
 :root {
     --color1: #053655;
-    --color2: #426275;
+    --color2: #ffffff;
 }
 
 
@@ -9,6 +9,7 @@ p {
 }
 
 body {
+    width: 100%;
     margin: 0;
     padding: 0;
 }
@@ -19,8 +20,14 @@ body {
     /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
 }
 
+.home h2 {
+    text-align: center;
+    font-size: 36px;
+    word-spacing: 0px;
+}
+
 .tentang {
     background-color: var(--color1);
     color: white;
-    
+
 }

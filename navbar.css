@@ -5,8 +5,8 @@
     overflow: hidden;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     top: 0px;
-    z-index: 100;
 }
 
 #navbar {
@@ -34,14 +34,12 @@
     color: var(--color2);
     background: var(--color1);
     transition: background 300ms;
-    transition: color 300ms;
     transition: font-weight 300ms;
     transition: padding 300ms ease-in-out;
 }
 
 .navbar a:hover {
-    background: white;
-    color: var(--color1);
+    background: linear-gradient(var(--color1), #40a0c0);
     font-weight: bold;
     padding: 16px 30px;
 }

@@ -24,10 +24,17 @@ body {
     /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
 }
 
+.home {
+    background: url(resources/background.png);
+    display: block;
+    height: calc(100vh - 56px);
+    align-content: center;
+}
+
 .home h2 {
     text-align: center;
     font-size: 36px;
-    background-image: image("resources/raka.png");
+    /* color: var(--color2); */
 }
 
 
@@ -101,4 +108,10 @@ body {
   
   .name:hover {
     cursor: pointer;
+  }
+
+  .custom-image {
+    width: 100%;
+    height: auto;
+  
   }

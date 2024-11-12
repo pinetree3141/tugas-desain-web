@@ -8,10 +8,13 @@
     <link rel="stylesheet" href="navbar.css">
     <link rel="stylesheet" href="content.css">
     <link rel="stylesheet" href="containers.css">
+    <link rel="stylesheet" href="footer.css">
+    <!-- KODE PEMANGGIL ICON DI FEATHER.COM -->
+    <script src="https://unpkg.com/feather-icons"></script>
     <script src="script.js"></script>
 </head>
 <body>
-    <div class="navbar" onscroll="">
+    <div class="navbar">
         <h2 class="logo">UNIGA.</h2>
         <div class="nav-container">
             <a class="active" href="#home">Home</a>
@@ -34,7 +37,7 @@
         <div class="content tentang" id="tentang">
             <h2>Tentang UNIGA</h2>
             <p>
-                UNIGA (Universitas Ikatan Ninga) adalah sebuah institusi pendidikan tinggi yang didirikan dengan tujuan menghasilkan lulusan berkualitas dan berintegritas tinggi. Berlokasi di salah satu kerajaan yang terkenal di Alam Bintara yaitu Kerajaan Hitam. Sebuah lingkungan yang strategis untuk mendirikan sebuah institusi. Universitas Ikatan Ninga menawarkan berbagai program studi di bidang sains, teknologi, ekonomi, sosial, dan humaniora. Universitas ini berkomitmen untuk menyediakan pendidikan yang berstandar internasional dengan fokus pada pengembangan kemampuan praktis serta penelitian inovatif.
+                UNIGA (Universitas Ikatan Nigga) adalah sebuah institusi pendidikan tinggi yang didirikan dengan tujuan menghasilkan lulusan berkualitas dan berintegritas tinggi. Berlokasi di salah satu kerajaan yang terkenal di Alam Bintara yaitu Kerajaan Hitam. Sebuah lingkungan yang strategis untuk mendirikan sebuah institusi. Universitas Ikatan Ninga menawarkan berbagai program studi di bidang sains, teknologi, ekonomi, sosial, dan humaniora. Universitas ini berkomitmen untuk menyediakan pendidikan yang berstandar internasional dengan fokus pada pengembangan kemampuan praktis serta penelitian inovatif.
             </p>
             <p>
                 Fasilitas di Universitas Ikatan Ninga dirancang untuk mendukung pembelajaran dan penelitian yang berkualitas. Laboratorium yang lengkap, perpustakaan modern, serta ruang belajar yang nyaman menjadi bagian dari fasilitas unggulannya. Selain itu, universitas ini juga mendorong kolaborasi dengan institusi akademik lain dan berbagai perusahaan dalam rangka menciptakan kesempatan magang, beasiswa, dan proyek penelitian bagi para mahasiswa.
@@ -51,24 +54,40 @@
             <!-- /* From Uiverse.io by alexmaracinaru */  -->
             <div class="card-container">
                 <div class="card">
-                    <div class="card-image"></div>
-                    <div class="category"> Illustration </div>
-                    <div class="heading"> A heading that must span over two lines
-                        <div class="author"> By <span class="name">Abi</span> 4 days ago</div>
+                    <div class="card-image">
+                        <img src="resources/membayar pajak.jpg">
+                    </div>
+                    <div class="category"> 12 Nov 2024</div>
+                    <div class="heading"> Dalam sejarah 12 MIPA 2, Abduh membayar kas untuk pertama kalinya
+                        <div class="author"> By <span class="name">Admin</span> 4 hours ago</div>
                     </div>
                     
                     
                 </div>
                 <div class="card">
-                    <div class="card-image"></div>
-                    <div class="category"> Illustration </div>
-                    <div class="heading"> A heading that must span over two lines
-                        <div class="author"> By <span class="name">Abi</span> 4 days ago</div>
+                    <div class="card-image">
+                        <img src="resources/bdm.png" class="custom-image">
+                    </div>
+                    <div class="category"> 10 Nov 2024 </div>
+                    <div class="heading"> Raih skor tinggi dalam permainan! Pak Jumadi kalahkan semua lawannya
+                        <div class="author"> By <span class="name">Admin</span> 2 days ago</div>
                     </div>
                 
                 
                     
                 </div>
+                <div class="card">
+                    <div class="card-image">
+                        <img src="resources/pak bhe.png" class="custom-image "> 
+                    </div>
+                    <div class="category"> 7 Nov 2024 </div>
+                    <div class="heading"> Sehatnya gebyur sore bersama Pak Bhe
+                        <div class="author"> By <span class="name">Admin</span> 6 days ago</div>
+                    </div>
+                
+                    
+                </div>
+                
                 
             </div>
         </div>
@@ -76,98 +95,32 @@
             <h2>Galeri</h2>
             <div class="gallery-container">
                 <div class="image-container">
-                    <img src="resources/musuko.png">
-                    <div class="gallery-caption">
-                        <p>Musuko merokok</p>
+                    <img src="resources/bertani.png" class="custom-image "> 
+                    <div class="overlay">
+                        <p>Zishan bertani</p>
+                    </div>
+                </div>
+                <div class="image-container">
+                    <img src="resources/rendra.png" class="custom-image">
+                    <div class="overlay">
+                        <p>Rendra telfonan</p>
+                    </div>
+                </div>
+                <div class="image-container">
+                    <img src="resources/satya.png" class="custom-image">
+                    <div class="overlay">
+                        <p>Satya ngitung</p>
+                    </div>
+                </div>
+                <div class="image-container">
+                    <img src="resources/raka.png" class="custom-image">
+                    <div class="overlay">
+                        <p>Raka w Kuceng</p>
                     </div>
                 </div>
                 <div class="image-container">
                     <img src="resources/musuko.png">
-                    <div class="gallery-caption">
-                        <p>Musuko merokok</p>
-                    </div>
-                </div>
-                <div class="image-container">
-                    <img src="resources/musuko.png">
-                    <div class="gallery-caption">
-                        <p>Musuko merokok</p>
-                    </div>
-                </div>
-                <div class="image-container">
-                    <img src="resources/musuko.png">
-                    <div class="gallery-caption">
-                        <p>Musuko merokok</p>
-                    </div>
-                </div>
-                <div class="image-container">
-                    <img src="resources/musuko.png">
-                    <div class="gallery-caption">
-                        <p>Musuko merokok</p>
-                    </div>
-                </div>
-                <div class="image-container">
-                    <img src="resources/musuko.png">
-                    <div class="gallery-caption">
-                        <p>Musuko merokok</p>
-                    </div>
-                </div>
-                <div class="image-container">
-                    <img src="resources/musuko.png">
-                    <div class="gallery-caption">
-                        <p>Musuko merokok</p>
-                    </div>
-                </div>
-                <div class="image-container">
-                    <img src="resources/musuko.png">
-                    <div class="gallery-caption">
-                        <p>Musuko merokok</p>
-                    </div>
-                </div>
-                <div class="image-container">
-                    <img src="resources/musuko.png">
-                    <div class="gallery-caption">
-                        <p>Musuko merokok</p>
-                    </div>
-                </div>
-                <div class="image-container">
-                    <img src="resources/musuko.png">
-                    <div class="gallery-caption">
-                        <p>Musuko merokok</p>
-                    </div>
-                </div>
-                <div class="image-container">
-                    <img src="resources/musuko.png">
-                    <div class="gallery-caption">
-                        <p>Musuko merokok</p>
-                    </div>
-                </div>
-                <div class="image-container">
-                    <img src="resources/musuko.png">
-                    <div class="gallery-caption">
-                        <p>Musuko merokok</p>
-                    </div>
-                </div>
-                <div class="image-container">
-                    <img src="resources/musuko.png">
-                    <div class="gallery-caption">
-                        <p>Musuko merokok</p>
-                    </div>
-                </div>
-                <div class="image-container">
-                    <img src="resources/musuko.png">
-                    <div class="gallery-caption">
-                        <p>Musuko merokok</p>
-                    </div>
-                </div>
-                <div class="image-container">
-                    <img src="resources/musuko.png">
-                    <div class="gallery-caption">
-                        <p>Musuko merokok</p>
-                    </div>
-                </div>
-                <div class="image-container">
-                    <img src="resources/musuko.png">
-                    <div class="gallery-caption">
+                    <div class="overlay">
                         <p>Musuko merokok</p>
                     </div>
                 </div>
@@ -178,19 +131,53 @@
             <p>
                 Website ini dibuat sebagai tugas kelompok lintas minat TIK Kelas XII MIPA 2 SMAN 1 Yogyakarta yang diajar oleh 
                 Pak Sopan Setiawan. Berikut anggota kelompok 1:
+                <p>Gede Narendra Pangayoman   (12) </p>
+                <p>Mohammad Aryasatya Arifien (18) </p>
+                <p>Musuko Satyo Wardhana      (23) </p>
+                <p>Raka Al Rizal              (29) </p>
             </p>
-            <div class="gallery-container">
-                <div class="image-container">
+            <div class="profile-container">
+                <div class="profile-image">
                     <img src="" alt="">
                 </div>
             </div>
         </div>
-        <div class="content kontak" id="kontak">
-            <h2>Kontak</h2>
 
-        </div>
         
     </div>
+    <!-- KONTAK FOOTER -->
+    <footer>
+        <div class="footerContainer">
+            <div class="socialIcons">
+                <a href=""><i class="facebook"></i></a>
+                <a href=""><i class="instagram"></i></a>
+                <a href=""><i class="twitter"></i></a>
+                <a href=""><i class="twitch"></i></a>
+                <a href=""><i class="youtube"></i></a>
+            </div>
+            <div class="footerNav">
+                <ul><li><a href="">Home</a></li>
+                    <li><a href="">Tentang</a></li>
+                    <li><a href="">Berita</a></li>
+                    <li><a href="">Galeri</a></li>
+                    <li><a href="">our Team</a></li>
+                </ul>
+            </div>
+            
+        </div>
+        <div class="footerBottom">
+            <p>Copyright &copy;2023; Designed by <span class="designer">Noman</span></p>
+        </div>
+    </footer>
+    
+    </div>
+
+    <!-- FEATHER ICON -->
+    <script>
+        feather.replace();
+    </script>
+
+</body>
     
 
     

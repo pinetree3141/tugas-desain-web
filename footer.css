@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 footer{
-    background-color: #111;
+    background-color: var(--color1);
 }
 .footerContainer{
     width: 100%;
@@ -28,7 +28,7 @@ footer{
 }
 /* Hover affect on social media icon */
 .socialIcons a:hover{
-    background-color: #111;
+    background-color: var(--color1);
     transition: 0.5s;
 }
 .socialIcons a:hover i{

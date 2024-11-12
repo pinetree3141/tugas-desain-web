@@ -20,20 +20,21 @@ body {
 
 .main {
     /* overflow: hidden; */
-    margin-top: 56px;
+    margin-top: 54px;
     /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
 }
 
 .home {
-    background-image: url(resources/background.jpg);
+    background: rgb(0,0,0,0.7) url(resources/background.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     background-image: fixed;
     display: block;
-    height: calc(100vh - 56px);
+    height: calc(100vh - 54px);
     align-content: center;
     color: white;
+    background-blend-mode: darken;
 }
 
 .tentang {
@@ -44,10 +45,11 @@ body {
 
 /* CSS BERITA */
 .card-container {
-    display: inline-block;
+    display: flex;
     overflow:scroll;
+    justify-content: space-evenly;
     height: fit-content;
-}
+ }
 
 .card-container::-webkit-scrollbar {
   display: none;
@@ -63,6 +65,8 @@ body {
     display: inline-block;
     margin-right: 10px;
     overflow: hidden;
+    
+    
 }
   
   .card-image {
@@ -125,4 +129,3 @@ body {
 
 
   /* ABOUT US */
- 
